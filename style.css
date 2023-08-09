@@ -42,9 +42,10 @@ body * {
 }
 
 #container {
-  width: 360px; /*largura */
+  width: 100%; /*largura */
   /*height: 712px; altura */
   /*border: 1px solid red; borda */
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
