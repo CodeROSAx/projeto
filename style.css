@@ -33,6 +33,7 @@ body {
   AGRUPAR TUDO ISSO ACIMA EM UM "CODIGO" SÓ OU MELHOR UM ATALHO
   */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -170,4 +171,15 @@ footer {
   padding: 24px 0;
   text-align: center; /*alinhamento de texto*/
   font-size: 14px;
+}
+
+/* media queries, só funciona se tiver a 'meta:viewport' no html*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
